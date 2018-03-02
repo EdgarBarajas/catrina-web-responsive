@@ -1003,7 +1003,7 @@ h1
 
 	.colorbg:hover
 	{
-		background-color: rgba(205, 133, 63, .5);
+		background-color: rgba(255, 153, 153, .5);
 	}
 
 	.colorbg:hover h1, .colorbg:hover h3, .colorbg:hover h4, .colorbg:hover h5, .colorbg:hover h6
@@ -1171,3 +1171,75 @@ h1
 		background-image: url(../images/background2x.png);
 	}
 }
+
+/*Mensaje de Correo Enviado*/
+	.background-mensaje
+	{
+		background-color: rgb(255, 153, 153);
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+	}
+
+	.text-correo
+	{
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.cont-correo
+	{
+		margin: auto;
+	}
+
+	.mensaje
+	{
+		display: flex;
+		margin-top: 40px;
+	}
+
+	.img-correo
+	{
+		display: flex;
+		margin: auto;
+	}
+
+	@media screen and (max-width: 650px)
+	{
+		.img-correo
+			{
+				width: 350px;
+			}
+	
+		.text-correo
+			{
+				font-size: 30px;
+			}
+	}
+
+	@media screen and (max-width: 500px)
+	{
+		.img-correo
+			{
+				width: 300px;
+			}
+	
+		.text-correo
+			{
+				font-size: 25px;
+			}
+	}
+
+	@media screen and (max-width: 350px)
+	{
+		.img-correo
+			{
+				width: 75%;
+			}
+	
+		.text-correo
+			{
+				font-size: 20px;
+			}
+	}
+/*Mensaje de Correo Enviado*/
