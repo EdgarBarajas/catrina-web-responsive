@@ -1,6 +1,6 @@
 <?php
 
-$destino= "barajad89@gmail.com";
+$destino= "hola@catrinasoftec.com";
 
 $nombre= $_POST["nombre"];
 
